@@ -73,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-28 bg-gray-50">
+    <section id="contact" className="py-28 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <motion.h2
           className="text-5xl md:text-6xl font-extrabold text-gray-900 tracking-tight"
@@ -82,7 +82,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          Ready to Create?
+          Ready to Join?
         </motion.h2>
         <motion.p
           className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto"
@@ -91,7 +91,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          Tell us about your vision. We're here to help you bring it to life.
+          Tell us about yourself
         </motion.p>
       </div>
 
@@ -134,7 +134,7 @@ const Contact = () => {
                     <input
                       type="text"
                       name="name"
-                      placeholder="John Doe"
+                      placeholder="Alex"
                       value={formData.name}
                       onChange={handleChange}
                       className="form-input"

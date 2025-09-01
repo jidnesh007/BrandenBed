@@ -17,7 +17,7 @@ const sectionVariants = {
 
 const About = () => {
   return (
-    <div className="bg-white font-sans text-gray-800">
+    <div id="about" className="bg-white font-sans text-gray-800">
       {/* Header Section */}
       <div className="bg-gray-50/80 py-24 sm:py-32">
         <div className="container mx-auto px-6 lg:px-8">

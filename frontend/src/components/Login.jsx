@@ -102,7 +102,8 @@ const Login = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-2">
             Welcome Back!
           </h2>
-          <p className="text-gray-500 mb-8">Please login to your account.</p>
+          <p className="text-gray-500 ">Please login to your account.</p>
+          <p className="text-gray-500 mb-8">(username: admin & password:123)</p>
 
           <form onSubmit={handleLogin} className="space-y-6">
             {/* Role Selector */}

@@ -50,7 +50,7 @@ export default function Service() {
   );
 
   return (
-    <section ref={sectionRef} className="relative w-full text-white">
+    <section id="services" ref={sectionRef} className="relative w-full text-white">
       {/* FIXED full-bleed section background */}
       <div
         className="pointer-events-none absolute inset-0 -z-10 bg-cover bg-center bg-fixed"

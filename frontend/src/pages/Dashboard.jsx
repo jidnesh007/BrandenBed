@@ -100,6 +100,7 @@ const Sidebar = ({
         <div className="bg-gray-800 p-2 rounded-lg">
           <Home size={24} className="text-white" />
         </div>
+        <a href="/">
         <h1
           className={`text-2xl font-bold text-gray-800 transition-opacity duration-300 ${
             isSidebarOpen || window.innerWidth >= 1024
@@ -109,6 +110,7 @@ const Sidebar = ({
         >
           BrandenBed
         </h1>
+        </a>
         {isSidebarOpen && (
           <button
             className="lg:hidden text-gray-600 hover:text-red-600 ml-auto"

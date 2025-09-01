@@ -49,11 +49,13 @@ const Navbar = () => {
             alt="Logo"
             className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
           />
+          <a href="/">
           <span className={`text-xl font-bold transition-colors duration-300 ${
             scrolled ? "text-gray-800" : "text-white"
           }`}>
             Brandenbed Living Spaces UG
           </span>
+          </a>
         </div>
 
         {/* Desktop Links */}
